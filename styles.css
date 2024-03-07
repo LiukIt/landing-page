@@ -1,0 +1,186 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* this is the header and first paragraph - blue color */
+.header {
+    font-size: 22px;
+    color: #f9faf8; 
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+} 
+
+
+.container {
+    background-color: #1F2937;
+}
+
+.paragraph {
+    width: 360px;
+
+}
+
+.link {
+    margin-left: 15px;
+}
+
+.links {
+    gap: 20px;
+    display: flex;
+}
+
+.link, #text {
+    font-size: 16px;
+    color: #e5e7eb;
+    text-decoration: none;
+    
+}
+
+.link:hover {
+    color: green;
+}
+
+.first-part {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    gap: 200px;
+    padding-bottom: 100px;
+    align-items: center;
+}
+
+#signup {
+    margin-top: 15px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+
+#title {
+    font-size: 46px;
+    font-weight: bolder;
+    color: #f9faf8
+}
+
+#picture {
+    width: 400px;
+    height: 215px;
+}
+/*  */
+
+/* this is the body part */
+#random {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.one, .two, .three, #four {
+    display:flex;
+    flex-direction: column;
+    width: 150px;
+    text-align: center;
+    gap: 2px;
+}
+
+.body {
+    display: flex;
+    gap: 50px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+.pictures {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border: 4px solid #3882f6;
+}
+/*  */
+
+/* this is the quote part */
+.greybox {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 26px;
+    color: #1F2937;
+    width: 550px;
+}
+
+.signature {
+    font-weight: bolder;
+    margin-left: 350px;
+}
+/*  */
+
+/* this is the call to action part */
+.call {
+    background-color: #3882f6;
+    color: #f9faf8;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    padding: 0 80px;
+    border-radius: 5px;
+    gap: 100px;
+}
+
+#action {
+    border-radius: 5px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    height: fit-content;
+    padding: 5px 10px;
+}
+
+#product {
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+
+.full {
+    height: 275px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+button {
+    border: 1px solid #f9faf8;
+}
+/*  */
+
+/* this is the footer part */
+.final {
+    background-color:#1F2937;
+    color: #f9faf8;
+    display: flex;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+}
+/*  */
